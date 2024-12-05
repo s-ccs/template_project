@@ -1,6 +1,56 @@
-name = "template_project"
-[compat]
-julia = "1.11.1"
-DrWatson = "2.18.0"
-[deps]
-DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+[Authors]
+  authors = ""
+  affiliation = ""
+[AuthorsContact]
+  email = ""
+[Dataset]
+  title = ""
+  dataset_description = ""
+  License = ""
+  taskName = ""
+
+[Sources]
+  EEG = ""
+  marker = ["LSL_Markers","eegoSports-EE225_markersMarkers"]
+
+[Computers]
+  stimulusComputerUsed = true
+
+[Subject]
+  subject = ["Medicine, Health and Life Sciences","Engineering"]
+
+[Dataverse]
+  dataset_id = x
+  dataset_title = ''
+  pid = ' '
+
+[Consentform]
+	pay_per_hour = 15
+	study_duration_hrs = x
+
+    use_eeg = true
+    use_eyetracking = true
+	use_vr = false
+
+	study_purpose_de = ""
+	study_purpose_en = ""
+    
+	study_task_de =  ""
+	study_task_en = ""
+	
+	researcher_details_de = """Verantwortliche Person: Benedikt Ehinger  
+								Computational Cognitive Science (CCS)  
+								Institut für Visualisierung und Interaktive Systeme (VIS)   
+								Universität Stuttgart  
+								Universitätsstraße 32  
+								70569 Stuttgart  
+								E-mail: benedikt.ehinger@vis.uni-stuttgart.de"""
+	researcher_details_en = """Responsible Principal Investigator: Benedikt Ehinger  
+								Computational Cognitive Science (CCS)  
+								Institute for Visualisation and Interactive Systems (VIS)   
+								University of Stuttgart  
+								Universitätsstraße 32  
+								70569 Stuttgart  
+								E-mail: benedikt.ehinger@vis.uni-stuttgart.de"""
+
+	data_processing_contactperson = "Benedikt Ehinger (benedikt.ehinger@vis.uni-stuttgart.de)"
