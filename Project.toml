@@ -1,16 +1,16 @@
 [Authors]
-  authors = ""
-  affiliation = ""
+  authors = "John Doe, Lina Doe"
+  affiliation = "University of Stuttgart, Germany"
 [AuthorsContact]
-  email = ""
+  email = "john@gmail.com"
 [Dataset]
-  title = ""
-  dataset_description = ""
-  License = ""
-  taskName = ""
+  title = "Convert XDF to BIDS"
+  dataset_description = "This is a test project to set up the pipeline to convert XDF to BIDS."
+  License = "MIT License"
+  taskName = "task-1"
 
 [Sources]
-  EEG = ""
+  EEG = "EEGstream EE225"
   marker = ["LSL_Markers","eegoSports-EE225_markersMarkers"]
 
 [Computers]
@@ -20,23 +20,23 @@
   subject = ["Medicine, Health and Life Sciences","Engineering"]
 
 [Dataverse]
-  dataset_id = x
-  dataset_title = ''
+  dataset_id = 123456
+  dataset_title = 'Convert XDF to BIDS'
   pid = ' '
 
 [Consentform]
-	pay_per_hour = 15
-	study_duration_hrs = x
+    pay_per_hour = 15
+	study_duration_hrs = 3
 
     use_eeg = true
     use_eyetracking = true
 	use_vr = false
 
-	study_purpose_de = ""
-	study_purpose_en = ""
+	study_purpose_de = """In dieser Studie untersuchen wir, wie Menschen Bilder wahrnehmen, indem wir die Gehirnaktivität mit EEG und die Augenbewegungen mit einem Eye-Tracker aufzeichnen."""
+	study_purpose_en = "In this study, we will investigate how humans perceive images by recording brain activity with EEG and eye movements using an eye-tracker."
     
-	study_task_de =  ""
-	study_task_en = ""
+	study_task_de =  "Es werden Ihnen verschiedene Bilder auf dem Monitor präsentiert. Ihre Aufgabe ist es, die Bilder frei zu erkunden."
+	study_task_en = "We will present different pictures on the screen. Your task is to freely explore these pictures."
 	
 	researcher_details_de = """Verantwortliche Person: Benedikt Ehinger  
 								Computational Cognitive Science (CCS)  
