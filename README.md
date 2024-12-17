@@ -50,7 +50,7 @@
 │
 ├── (Manifest.toml)  <- Contains full list of exact package versions used currently.
 |── (Project.toml)   <- Main project file, allows activation and installation. Produced by Dr. Watson
-|── (project_project_template.toml)   <-  This is for a content-wise description of your exepriment. 
+|── (project_project_template.toml)   <-  This is for a content-wise description of your experiment. 
                                           Change "project_template" in the filename to your project name. 
                         
 ```
