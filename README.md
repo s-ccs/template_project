@@ -1,7 +1,5 @@
 # **Project Template:** Put name of project here
-**Author:** *Your name*
-
-**Supervisor(s):** *Supervisor 1*, *Supervisor 2*
+**Authors:** *Your name*
 
 **Year:** *2025*
 
